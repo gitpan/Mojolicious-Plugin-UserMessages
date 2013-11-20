@@ -1,4 +1,7 @@
 package Mojolicious::Plugin::UserMessages::Queue;
+{
+  $Mojolicious::Plugin::UserMessages::Queue::VERSION = '0.502';
+}
 
 use Carp;
 use strict;

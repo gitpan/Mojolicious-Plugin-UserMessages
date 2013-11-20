@@ -1,4 +1,7 @@
 package Mojolicious::Plugin::UserMessages;
+{
+  $Mojolicious::Plugin::UserMessages::VERSION = '0.502';
+}
 
 use Mojo::Base 'Mojolicious::Plugin';
 use Mojolicious::Plugin::UserMessages::Queue;

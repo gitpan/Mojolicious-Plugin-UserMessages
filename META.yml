@@ -22,4 +22,4 @@ requires:
   Mojo::Base: 0
   Mojolicious: 2.31
   strict: 0
-version: 0.501
+version: 0.502
