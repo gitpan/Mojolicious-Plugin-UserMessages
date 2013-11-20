@@ -22,12 +22,19 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Carp" => 0,
     "Mojo::Base" => 0,
-    "Mojolicious" => 0
+    "Mojolicious" => "2.31",
+    "strict" => 0
   },
-  "TEST_REQUIRES" => {},
-  "VERSION" => "0.001",
+  "TEST_REQUIRES" => {
+    "Mojolicious::Lite" => 0,
+    "Test::Mojo" => 0,
+    "Test::More" => 0,
+    "lib" => 0,
+    "utf8" => 0
+  },
+  "VERSION" => "0.501",
   "test" => {
-    "TESTS" => ""
+    "TESTS" => "t/*.t"
   }
 );
 
@@ -35,7 +42,13 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Carp" => 0,
   "Mojo::Base" => 0,
-  "Mojolicious" => 0
+  "Mojolicious" => "2.31",
+  "Mojolicious::Lite" => 0,
+  "Test::Mojo" => 0,
+  "Test::More" => 0,
+  "lib" => 0,
+  "strict" => 0,
+  "utf8" => 0
 );
 
 

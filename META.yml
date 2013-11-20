@@ -2,7 +2,12 @@
 abstract: 'Mojolicious Plugin to manage user message(s) qeue(s)'
 author:
   - 'Bruno Tavares <eu@brunotavares.net>'
-build_requires: {}
+build_requires:
+  Mojolicious::Lite: 0
+  Test::Mojo: 0
+  Test::More: 0
+  lib: 0
+  utf8: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -15,5 +20,6 @@ name: Mojolicious-Plugin-UserMessages
 requires:
   Carp: 0
   Mojo::Base: 0
-  Mojolicious: 0
-version: 0.001
+  Mojolicious: 2.31
+  strict: 0
+version: 0.501
