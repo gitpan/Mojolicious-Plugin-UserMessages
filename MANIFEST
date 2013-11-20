@@ -5,6 +5,7 @@ Makefile.PL
 README
 dist.ini
 lib/Mojolicious/Plugin/UserMessages.pm
+lib/Mojolicious/Plugin/UserMessages/Message.pm
 lib/Mojolicious/Plugin/UserMessages/Queue.pm
 t/001-load.t
 t/002-basic_queue.t
