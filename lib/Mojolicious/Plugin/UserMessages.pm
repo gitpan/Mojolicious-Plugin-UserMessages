@@ -1,6 +1,6 @@
 package Mojolicious::Plugin::UserMessages;
 {
-  $Mojolicious::Plugin::UserMessages::VERSION = '0.510';
+  $Mojolicious::Plugin::UserMessages::VERSION = '0.511';
 }
 
 use Mojo::Base 'Mojolicious::Plugin';
@@ -19,7 +19,7 @@ sub register {
 
 =head1 NAME
 
-Mojolicious::Plugin::UserMessages - Mojolicious Plugin to manage user message(s) qeue(s)
+Mojolicious::Plugin::UserMessages - Mojolicious Plugin to manage user message queue(s)
 
 =head1 SYNOPSIS
 

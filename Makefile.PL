@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Mojolicious Plugin to manage user message(s) qeue(s)",
+  "ABSTRACT" => "Mojolicious Plugin to manage user message queue(s)",
   "AUTHOR" => "Bruno Tavares <eu\@brunotavares.net>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -32,7 +32,7 @@ my %WriteMakefileArgs = (
     "lib" => 0,
     "utf8" => 0
   },
-  "VERSION" => "0.510",
+  "VERSION" => "0.511",
   "test" => {
     "TESTS" => "t/*.t"
   }

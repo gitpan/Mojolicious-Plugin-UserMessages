@@ -1,6 +1,6 @@
 package Mojolicious::Plugin::UserMessages::Message;
 {
-  $Mojolicious::Plugin::UserMessages::Message::VERSION = '0.510';
+  $Mojolicious::Plugin::UserMessages::Message::VERSION = '0.511';
 }
 
 use Carp;
